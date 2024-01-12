@@ -1,0 +1,50 @@
+.main_main {
+  display: flex;
+  justify-content: space-between;
+  background-color: #00dbdb;
+  /* height: 500px; */
+  flex-wrap: wrap;
+}
+.main_main img {
+  width: 348px;
+}
+.main {
+  background-color: #00dbdb;
+  padding: 69px 0 0px 66px;
+}
+.main_p1 {
+  color: yellow;
+  font-size: 23px;
+  font-family: inherit;
+}
+.main_span {
+  color: #023e76;
+  font-size: 44px;
+  font-weight: 700;
+}
+.main_p2 {
+  color: yellow;
+}
+.front-but {
+  height: 42px;
+  width: 127px;
+  margin-top: 14px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  font-weight: 600;
+}
+.front_but_area {
+  display: flex;
+  gap: 23px;
+  font-size: 18px;
+}
+.front_but_area p {
+  color: #023e76;
+  margin-top: 4px;
+  font-size: 18px;
+}
+.month {
+  color: #023e76;
+  font-size: 15px;
+  margin-top: 10px;
+}

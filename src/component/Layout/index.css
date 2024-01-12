@@ -1,0 +1,117 @@
+:where(.css-dev-only-do-not-override-dkbvqv).ant-layout-header {
+  box-sizing: border-box;
+  width: 100%;
+}
+.ant-menu-overflow {
+  flex: none !important;
+}
+.ant-layout-header {
+  justify-content: space-between !important;
+}
+.head_logo {
+  color: #a6adb4;
+  font-size: 35px;
+  transition: color 0.3s;
+}
+.head_logo:hover {
+  /* background-color: #1677ff; */
+  color: white;
+}
+.signup {
+  border: none;
+  color: #a6adb4;
+  background-color: transparent;
+}
+.signup:hover {
+  color: white !important;
+  background-color: #1677ff;
+}
+.register {
+  border: 2px solid #a6adb4;
+  color: #a6adb4;
+  background-color: transparent;
+}
+.register:hover {
+  background-color: #1677ff;
+  color: white !important;
+  border: 2px solid white !important;
+}
+
+.layout_but {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5px;
+}
+.more_logo {
+  color: #a6adb4;
+  font-size: 57px;
+  transition: color 0.3s;
+}
+.more_logo:hover,
+.more_logo:focus {
+  color: white !important;
+}
+.navlink {
+  display: flex;
+  gap: 28px;
+  font-size: 20px;
+  padding-top: 38px;
+  color: rgb(82, 82, 82);
+  cursor: pointer;
+}
+.nav {
+  color: black;
+}
+.nav_hide {
+  color: #001529;
+  font-family: 30px;
+  font-weight: bold;
+  display: block;
+  border: 1px solid #001529;
+  text-align: center;
+  padding: 23px 0px;
+}
+.nav_hide:hover {
+  border: 2px solid white;
+  background-color: #001529;
+  cursor: pointer;
+  color: white;
+}
+.but_hide {
+  padding: 23px auto !important;
+}
+.sign,
+.regi {
+  margin-top: 5px;
+  border: 2px solid #001529;
+  color: #001529;
+  background-color: transparent;
+}
+.sign:hover,
+.regi:hover {
+  color: white;
+  background-color: #001529;
+}
+
+.hide_header {
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.hide_con {
+  background-color: #001529;
+  /* justify-content: space-between !important; */
+  height: 80px;
+}
+.hide_control{
+  
+  display: none;
+}
+@media only screen and (max-width: 790px) {
+  .hide_control {
+    display: block;
+  }
+  .main_header {
+    display: none;
+  }
+}
