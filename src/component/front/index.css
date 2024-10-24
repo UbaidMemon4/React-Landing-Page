@@ -2,15 +2,14 @@
   display: flex;
   justify-content: space-between;
   background-color: #00dbdb;
-  /* height: 500px; */
-  flex-wrap: wrap;
+  padding-left: 40px;
+  padding-top: 20px;
 }
-.main_main img {
+.main_img img {
   width: 348px;
 }
 .main {
   background-color: #00dbdb;
-  padding: 69px 0 0px 66px;
 }
 .main_p1 {
   color: yellow;
@@ -47,4 +46,40 @@
   color: #023e76;
   font-size: 15px;
   margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .main_img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .main_p1 {
+    color: yellow;
+    font-size: 20px;
+    font-family: inherit;
+  }
+  .main {
+    padding: 60px 15px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .main_span {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .main_span {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .main_p1 {
+    color: yellow;
+    font-size: 18px;
+    font-family: inherit;
+  }
+  .main_span {
+    font-size: 25px;
+  }
 }

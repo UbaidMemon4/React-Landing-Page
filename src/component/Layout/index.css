@@ -10,31 +10,35 @@
 }
 .head_logo {
   color: #a6adb4;
-  font-size: 35px;
+  font-size: 30px;
   transition: color 0.3s;
+  display: flex;
+
+  &:hover {
+    color: white;
+  }
 }
-.head_logo:hover {
-  /* background-color: #1677ff; */
-  color: white;
+.head_logo p {
+  margin-top: 8px;
 }
 .signup {
   border: none;
   color: #a6adb4;
   background-color: transparent;
-}
-.signup:hover {
-  color: white !important;
-  background-color: #1677ff;
+  &:hover {
+    color: white !important;
+    background-color: #1677ff;
+  }
 }
 .register {
   border: 2px solid #a6adb4;
   color: #a6adb4;
   background-color: transparent;
-}
-.register:hover {
-  background-color: #1677ff;
-  color: white !important;
-  border: 2px solid white !important;
+  &:hover {
+    background-color: #1677ff;
+    color: white !important;
+    border: 2px solid white !important;
+  }
 }
 
 .layout_but {
@@ -46,10 +50,12 @@
   color: #a6adb4;
   font-size: 57px;
   transition: color 0.3s;
-}
-.more_logo:hover,
-.more_logo:focus {
-  color: white !important;
+  &:hover {
+    color: white !important;
+  }
+  &:focus {
+    color: white !important;
+  }
 }
 .navlink {
   display: flex;
@@ -86,30 +92,23 @@
   border: 2px solid #001529;
   color: #001529;
   background-color: transparent;
-}
-.sign:hover,
-.regi:hover {
-  color: white;
-  background-color: #001529;
-}
-
-.hide_header {
-  display: flex;
-  justify-content: space-between !important;
+  &:hover {
+    color: white;
+    background-color: #001529;
+  }
 }
 
-.hide_con {
+.hide_control {
   background-color: #001529;
-  /* justify-content: space-between !important; */
-  height: 80px;
-}
-.hide_control{
-  
+  padding: 5px;
+  width: 100%;
   display: none;
 }
-@media only screen and (max-width: 790px) {
+@media only screen and (max-width: 768px) {
   .hide_control {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
   }
   .main_header {
     display: none;

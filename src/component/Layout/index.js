@@ -59,28 +59,11 @@ function LayoutHead() {
         </Layout>
       </div>
       <div className="hide_control">
-      <div
-        
-        className="hide_con"
-        style={{
-          display: "flex",
-          alignItems: "center",
-        }}
-      >
-        <div className="hide_header">
-          <div className="more_img">
-            <div
-              className="head_logo"
-              style={{
-                display: "flex",
-                gap: "5",
-                flexWrap: "nowrap",
-              }}
-            >
-              <TeamOutlined />
-              <p>Ngoding</p>
-            </div>
-          </div>
+        <div className="head_logo">
+          <TeamOutlined />
+          <p>Ngoding</p>
+        </div>
+        <div>
           <BarsOutlined className="more_logo" onClick={showDrawer} />
           <Drawer title="Menu" placement="top" onClose={onClose} open={open}>
             <div className="navlink_hide">
@@ -104,7 +87,6 @@ function LayoutHead() {
           </Drawer>
         </div>
       </div>
-</div>
     </>
   );
 }

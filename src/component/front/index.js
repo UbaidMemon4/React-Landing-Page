@@ -4,7 +4,7 @@ import image from "../../images/female.png";
 const Main = () => {
   return (
     <div className="main_main">
-      <div className="main">
+      <div>
         <p className="main_p1">----The New Era Has Been Started</p>
         <span className="main_span">
           Bright Your Future With <br />
@@ -30,10 +30,9 @@ const Main = () => {
             </div>
           </div>
         </div>
-      
       </div>
-      <div>
-        <img src={image}/>
+      <div className="main_img">
+        <img src={image} />
       </div>
     </div>
   );
